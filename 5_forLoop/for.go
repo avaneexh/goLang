@@ -27,4 +27,10 @@ func main() {
 		fmt.Println(i)
 	}
 
+	// range
+
+	for i := range 11 { // will iterate for 10 iterations
+		fmt.Println(i)
+	}
+
 }

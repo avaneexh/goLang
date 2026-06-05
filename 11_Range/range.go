@@ -14,10 +14,18 @@ func main() {
 	// for _, num := range nums {
 	// 	fmt.Println(num)
 	// }
-	m := map[string]string{"fname": "jhon", "lname": "doe"}
+	// m := map[string]string{"fname": "jhon", "lname": "doe"}
 
-	for k, v := range m {
-		fmt.Println(k, v)
+	// for k, v := range m {
+	// 	fmt.Println(k, v)
+	// }
+
+	// for k := range m {
+	// 	fmt.Println(k)
+	// }
+
+	for i, c := range "golang" {
+		fmt.Println(i, c)
 	}
 
 }

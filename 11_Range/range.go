@@ -27,5 +27,8 @@ func main() {
 	for i, c := range "golang" {
 		fmt.Println(i, c)
 	}
+	for i, c := range "golang" {
+		fmt.Println(i, string(c))
+	}
 
 }
